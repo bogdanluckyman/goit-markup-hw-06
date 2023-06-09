@@ -472,6 +472,62 @@ img {
   background-color: #31d0aa;
 }
 
+.footer-subscribe {
+  margin-left: 80px;
+}
+.subscribe-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--background-color);
+  margin-bottom: 16px;
+}
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+.subscribe-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: var(--background-color);
+}
+
+.subscribe-input::placeholder {
+  color: var(--background-color);
+}
+
+.footer-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--background-color);
+  cursor: pointer;
+  background-color: var(--logo-color);
+  border-radius: 4px;
+  border: none;
+}
+
+.supscribe-icon {
+  margin-left: 16px;
+  fill: var(--background-color);
+}
+
 /*------------- Portfolio------------- */
 
 .project {
@@ -681,7 +737,6 @@ img {
   width: 100%;
   height: 120px;
   border-radius: 4px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
   padding: 8px 16px;
   outline: transparent;
   font-size: 12px;
@@ -750,9 +805,6 @@ img {
   fill: var(--logo-color);
 }
 
-.modal-check {
-}
-
 .check-text {
   display: flex;
   align-items: center;
@@ -762,8 +814,11 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--customers-color);
-  text-align: center;
   justify-content: center;
+}
+
+.icon-box {
+  display: inline-flex;
 }
 
 .check-text span {
@@ -771,7 +826,6 @@ img {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -788,7 +842,4 @@ img {
 
 .privacy-link {
   color: var(--logo-color);
-}
-
-.check-icon {
 }
