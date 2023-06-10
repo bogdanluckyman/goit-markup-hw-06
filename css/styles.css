@@ -806,9 +806,7 @@ img {
 }
 
 .check-text {
-  display: flex;
   align-items: center;
-  gap: 8px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -819,6 +817,7 @@ img {
 
 .check-text span {
   display: inline-flex;
+  margin-right: 8px;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
